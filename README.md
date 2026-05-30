@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ⚖️ Benetti & Genovez — Advogados Associados (Template Open Source)
 
-# Run and deploy your AI Studio app
+> 🚀 Um template de Landing Page institucional moderno, responsivo e de alta conversão para escritórios de advocacia e profissionais do direito.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/38588acb-a8ed-4d5a-89de-8d847cbcd494
+## 📌 Sobre o Projeto
 
-## Run Locally
+Este repositório contém o código-fonte de um website institucional estruturado originalmente para o escritório **Benetti & Genovez Advogados Associados** (sediado em Imbituba - SC). O projeto foi transformado em um **projeto open-source** e serve como um template genérico, limpo e performático para desenvolvedores ou advogados que desejam criar ou modernizar sua presença digital.
 
-**Prerequisites:**  Node.js
+O foco principal do desenvolvimento foi a usabilidade (UI/UX), conformidade com as diretrizes do mercado jurídico e otimização para captação de clientes (geração de leads).
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Funcionalidades & Estrutura do Site
+
+O template vem com as seguintes seções essenciais unificadas em uma única página (*Single Page Application / Landing Page*):
+
+1.  **Início / Hero Section:** Proposta de valor clara, sub-Título estratégico com as principais áreas (Civil, Penal, Trabalhista) e uma Chamada para Ação (CTA).
+2.  **Nossas Áreas (Serviços):** Vitrine modular para exibição das especialidades jurídicas:
+    *   *Direito Ambiental* (Licenciamento e defesas complexas)
+    *   *Direito Civil e Contratos* (Propriedade, obrigações e indenizações)
+    *   *Direito Penal e Criminal* (Defesa técnica individualizada e plantão)
+    *   *Direito Trabalhista* (Preventivo corporativo e contencioso)
+    *   *Direito Previdenciário* (Benefícios e revisões perante o INSS)
+3.  **Quem Somos / Corpo Técnico:** Espaço elegante para biografias profissionais, fotos da equipe e numeração de registros da OAB.
+4.  **Diferenciais Competitivos:** Seção em cards destacando pilares como: Atuação Ética, Atendimento Personalizado, Plantão 24h e Atendimento Híbrido (Local/Digital).
+5.  **FAQ (Perguntas Frequentes):** Componente interativo em estilo *accordion* para sanar as dúvidas mais comuns sobre o primeiro atendimento.
+6.  **Contato & Formulário de Agendamento:** Formulário integrado e estruturado com captação qualificada (Nome, E-mail, WhatsApp, Área de Interesse e Resumo do Caso).
