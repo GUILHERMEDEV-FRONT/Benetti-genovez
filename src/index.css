@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-gold-light: #F2E3C6;
+  --color-gold: #C5A059;
+  --color-gold-hover: #D8B775;
+  --color-gold-dark: #8E713A;
+  --color-dark-base: #08080A;
+  --color-dark-card: #121216;
+  --color-dark-border: #1F1F26;
+  
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Cinzel', 'Playfair Display', serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+@utility bg-wood-pattern {
+  background-image: radial-gradient(circle at 1px 1px, rgba(197, 160, 89, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@utility text-glow-gold {
+  text-shadow: 0 0 12px rgba(197, 160, 89, 0.4);
+}
+
+@utility border-glow-gold {
+  box-shadow: 0 0 15px rgba(197, 160, 89, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-dark-base);
+  color: #E2E8F0;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-dark-base);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-dark-border);
+  border-radius: 4px;
+  border: 2px solid var(--color-dark-base);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold);
+}
