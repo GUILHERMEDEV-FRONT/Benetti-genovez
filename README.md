@@ -27,3 +27,4 @@ O template vem com as seguintes seções essenciais unificadas em uma única pá
 4.  **Diferenciais Competitivos:** Seção em cards destacando pilares como: Atuação Ética, Atendimento Personalizado, Plantão 24h e Atendimento Híbrido (Local/Digital).
 5.  **FAQ (Perguntas Frequentes):** Componente interativo em estilo *accordion* para sanar as dúvidas mais comuns sobre o primeiro atendimento.
 6.  **Contato & Formulário de Agendamento:** Formulário integrado e estruturado com captação qualificada (Nome, E-mail, WhatsApp, Área de Interesse e Resumo do Caso).
+Você pode acessar o site aqui: [SITE AO VIVO ](https://benetti-genovez.vercel.app/)
