@@ -1,6 +1,6 @@
 import { PracticeArea, Lawyer, FAQItem, Office } from './types';
 
-export const HERO_BG_IMAGE = '/src/assets/images/law_office_hero_1780114338234.png';
+export const HERO_BG_IMAGE = '/images/law_office_hero_1780114338234.png';
 
 export const FOUNDERS: Lawyer[] = [
   {
@@ -8,7 +8,7 @@ export const FOUNDERS: Lawyer[] = [
     name: 'Dr. Luis Henrique Genovez',
     role: 'Advogado Sócio-Fundador',
     specialties: ['Direito Civil', 'Direito Previdenciário', 'Direito Tributário'],
-    image: '/src/assets/images/dr_luis_genovez_1780114296056.png',
+    image: '/images/dr_luis_genovez_1780114296056.png',
     oab: 'OAB/SC 39.442',
     linkedin: 'https://linkedin.com',
     email: 'luis@benettigenovez.com.br',
@@ -19,7 +19,7 @@ export const FOUNDERS: Lawyer[] = [
     name: 'Dr. Gustavo Benetti',
     role: 'Advogado Sócio-Fundador',
     specialties: ['Direito Penal', 'Direito Trabalhista', 'Direito Empresarial'],
-    image: '/src/assets/images/dr_gustavo_benetti_1780114315603.png',
+    image: '/images/dr_gustavo_benetti_1780114315603.png',
     oab: 'OAB/SC 41.229',
     linkedin: 'https://linkedin.com',
     email: 'gustavo@benettigenovez.com.br',
